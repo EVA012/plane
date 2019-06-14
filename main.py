@@ -7,14 +7,12 @@ import enemy
 import bullet
 import supply
 import random
-import os
 
 pygame.init()
 bg_size = width, height = 400, 700
 screen = pygame.display.set_mode(bg_size)
 pygame.display.set_caption("飞机大战")
 
-os.chdir(os.path.dirname(sys.argv[0]))
 background = pygame.image.load("images/background.png").convert()
 
 BLACK = (0,0,0)
